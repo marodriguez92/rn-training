@@ -184,28 +184,28 @@ Follow the next steps:
 ##### Home
 
 <p align="center">
-  <img height="80%" width="80%" src="https://github.corp.globant.com/ui-engineering/workshop-rn/blob/master/wireframes/home.png">
+  <img height="80%" width="80%" src="https://github.com/intii/rn-training/blob/master/wireframes/home.png">
 </p>
 
 ##### Twitter Details
 
 <p align="center">
-  <img height="40%" width="40%" src="https://github.corp.globant.com/ui-engineering/workshop-rn/blob/master/wireframes/tweet_details.png">
+  <img height="40%" width="40%" src="https://github.com/intii/rn-training/blob/master/wireframes/tweet_details.png">
 </p>
 
 ##### Search & Trends
 
 <p align="center">
-  <img height="80%" width="80%" src="https://github.corp.globant.com/ui-engineering/workshop-rn/blob/master/wireframes/search_1.png">
+  <img height="80%" width="80%" src="https://github.com/intii/rn-training/blob/master/wireframes/search_1.png">
 </p>
 <p align="center">
-  <img height="80%" width="80%" src="https://github.corp.globant.com/ui-engineering/workshop-rn/blob/master/wireframes/search_2.png">
+  <img height="80%" width="80%" src="https://github.com/intii/rn-training/blob/master/wireframes/search_2.png">
 </p>
 
 ##### Configuration
 
 <p align="center">
-  <img height="40%" width="40%" src="https://github.corp.globant.com/ui-engineering/workshop-rn/blob/master/wireframes/configuration.png">
+  <img height="40%" width="40%" src="https://github.com/intii/rn-training/blob/master/wireframes/configuration.png">
 </p>
 
 
