@@ -173,13 +173,11 @@ Please, use this repository as a base for your workshop phase. The idea is to fo
 
 Follow the next steps: 
 
-1. Run `git clone https://github.com/van1985/workshop-rn.git`
-2. Enter workshop-rn folder: `cd workshop-rn`
-3. Enter redux-boilerplate folder: `cd redux-boilerplate`
-4. Run `npm install`
-5. open an emulator (android or iOS - from android studio, xCode , genymotion)
-6. Run `npm start` (and choose 'a' for android or 'i' for iOS emulator)
-7. Enjoy
+1. Enter redux-boilerplate folder: `cd redux-boilerplate`
+2. Run `npm install`
+3. open an emulator (android or iOS - from android studio, xCode , genymotion)
+4. Run `npm start` (and choose 'a' for android or 'i' for iOS emulator)
+5. Enjoy
 
 #### Wireframes
 
