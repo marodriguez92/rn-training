@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, TextInput } from 'react-native';
+import { View, TextInput, TouchableOpacity, Text } from 'react-native';
 import styles from './styles';
 
 class Form extends Component {
@@ -19,6 +19,11 @@ class Form extends Component {
                     onChangeText={(textInput) => this.setState({ textInput })}
                     value={this.state.textInput}
                 />
+                <TouchableOpacity
+                    onPress={() => this.setState({ textInput: '' })}
+                >
+                    <Text>{'Clear'}</Text>
+                </TouchableOpacity>
             </View>
         )
     }
