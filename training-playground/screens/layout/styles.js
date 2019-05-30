@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Platform } from 'react-native';
 
 const box = {
     marginVertical: 40,
@@ -10,7 +10,7 @@ const box = {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#0366d6',
+        backgroundColor: Platform.OS === 'ios' ? '#ccc' : '#28a745',
         justifyContent: 'space-between'
     },
     subContainer: {
