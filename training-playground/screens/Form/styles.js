@@ -6,9 +6,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'center',
-    },
-    textInput: {
-        width: 150
     }
 });
 
