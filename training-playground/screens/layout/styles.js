@@ -1,7 +1,8 @@
 import { StyleSheet } from 'react-native';
 
-const margins = {
-    marginVertical: 10
+const marginsBorders = {
+    marginVertical: 10,
+    borderRadius: 25
 }
 
 const styles = StyleSheet.create({
@@ -10,19 +11,19 @@ const styles = StyleSheet.create({
       backgroundColor: '#0366d6'
     },
     box1: {
-        ...margins,
+        ...marginsBorders,
         width: 100,
         height: 100,
         backgroundColor: '#d73a49'
     },
     box2: {
-        ...margins,
+        ...marginsBorders,
         width: 200,
         height: 200,
         backgroundColor: '#6f42c1'
     },
     box3: {
-        ...margins,
+        ...marginsBorders,
         width: 300,
         height: 300,
         backgroundColor: 'white'
