@@ -13,21 +13,19 @@ const styles = StyleSheet.create({
         backgroundColor: '#0366d6',
         justifyContent: 'space-between'
     },
-    subContainer: {
-        flex: 0.85, 
-        flexDirection: 'column-reverse',
-        justifyContent: 'space-between'
-    },
     boxLightRed: {
         ...box,
+        flex: 0.5,
         backgroundColor: '#d73a49'
     },
     boxPurple: {
         ...box,
+        flex: 0.3,
         backgroundColor: '#6f42c1'
     },
     boxWhite: {
         ...box,
+        flex: 0.2,
         backgroundColor: 'white'
     },
 });
