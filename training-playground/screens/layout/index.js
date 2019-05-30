@@ -5,9 +5,9 @@ import styles from './styles';
 const Layout = () => {
     return (
         <View style={styles.container}>
-            <View style={styles.box1} />
-            <View style={styles.box2} />
-            <View style={styles.box3} />
+            <View style={styles.boxLightRed} />
+            <View style={styles.boxPurple} />
+            <View style={styles.boxWhite} />
         </View>
     )
 }
