@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 const box = {
     marginVertical: 40,
-    marginLeft: 20,
+    marginHorizontal: 20,
     width: 100,
     height: 100,
 }
@@ -13,20 +13,24 @@ const styles = StyleSheet.create({
         backgroundColor: '#0366d6',
         justifyContent: 'space-between'
     },
+    subContainer: {
+        flex: 0.85, 
+        flexDirection: 'column-reverse',
+        justifyContent: 'space-between',
+        alignItems: 'flex-end'
+    },
     boxLightRed: {
         ...box,
-        flex: 0.5,
         backgroundColor: '#d73a49'
     },
     boxPurple: {
         ...box,
-        flex: 0.3,
         backgroundColor: '#6f42c1'
     },
     boxWhite: {
         ...box,
-        flex: 0.2,
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        alignSelf: 'center'
     },
 });
 
