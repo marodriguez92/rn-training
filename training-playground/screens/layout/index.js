@@ -6,8 +6,10 @@ const Layout = () => {
     return (
         <View style={styles.container}>
             <View style={styles.boxLightRed} />
-            <View style={styles.boxPurple} />
-            <View style={styles.boxWhite} />
+            <View style={styles.subContainer}>
+                <View style={styles.boxPurple} />
+                <View style={styles.boxWhite} />
+            </View>
         </View>
     )
 }
