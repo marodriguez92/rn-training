@@ -7,7 +7,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Image
-          style={{ height: 50, width: 50 }}
+          style={{ height: '50%', width: '100%' }}
           source={{ uri: 'https://facebook.github.io/react-native/docs/assets/favicon.png' }}
           resizeMode={'contain'}
         />
