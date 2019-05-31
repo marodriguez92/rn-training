@@ -1,21 +1,22 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { View, Image } from 'react-native';
+import styles from './styles';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <Image
+          style={{ height: '50%', width: '100%' }}
+          source={{ uri: 'https://facebook.github.io/react-native/docs/assets/favicon.png' }}
+          resizeMode={'contain'}
+        />
+        <Image
+          style={{ height: 50, width: 50 }}
+          source={require('./assets/icon.png')}
+          resizeMode={'contain'}
+        />
       </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
